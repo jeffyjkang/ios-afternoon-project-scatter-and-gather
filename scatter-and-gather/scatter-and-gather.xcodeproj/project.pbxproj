@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC3D276B2556492A00E38CAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D276A2556492A00E38CAA /* AppDelegate.swift */; };
+		CC3D276D2556492A00E38CAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D276C2556492A00E38CAA /* SceneDelegate.swift */; };
+		CC3D276F2556492A00E38CAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D276E2556492A00E38CAA /* ViewController.swift */; };
+		CC3D27722556492B00E38CAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC3D27702556492A00E38CAA /* Main.storyboard */; };
+		CC3D27742556492B00E38CAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC3D27732556492B00E38CAA /* Assets.xcassets */; };
+		CC3D27822556492B00E38CAA /* scatter_and_gatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D27812556492B00E38CAA /* scatter_and_gatherTests.swift */; };
+		CC3D278D2556492B00E38CAA /* scatter_and_gatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC3D278C2556492B00E38CAA /* scatter_and_gatherUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC3D277E2556492B00E38CAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC3D275F2556492A00E38CAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC3D27662556492A00E38CAA;
+			remoteInfo = "scatter-and-gather";
+		};
+		CC3D27892556492B00E38CAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC3D275F2556492A00E38CAA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC3D27662556492A00E38CAA;
+			remoteInfo = "scatter-and-gather";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC3D27672556492A00E38CAA /* scatter-and-gather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "scatter-and-gather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC3D276A2556492A00E38CAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC3D276C2556492A00E38CAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CC3D276E2556492A00E38CAA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CC3D27712556492A00E38CAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC3D27732556492B00E38CAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC3D27782556492B00E38CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC3D277D2556492B00E38CAA /* scatter-and-gatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "scatter-and-gatherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC3D27812556492B00E38CAA /* scatter_and_gatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scatter_and_gatherTests.swift; sourceTree = "<group>"; };
+		CC3D27832556492B00E38CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC3D27882556492B00E38CAA /* scatter-and-gatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "scatter-and-gatherUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC3D278C2556492B00E38CAA /* scatter_and_gatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scatter_and_gatherUITests.swift; sourceTree = "<group>"; };
+		CC3D278E2556492B00E38CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC3D27642556492A00E38CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3D277A2556492B00E38CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3D27852556492B00E38CAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC3D275E2556492A00E38CAA = {
+			isa = PBXGroup;
+			children = (
+				CC3D27692556492A00E38CAA /* scatter-and-gather */,
+				CC3D27802556492B00E38CAA /* scatter-and-gatherTests */,
+				CC3D278B2556492B00E38CAA /* scatter-and-gatherUITests */,
+				CC3D27682556492A00E38CAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC3D27682556492A00E38CAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC3D27672556492A00E38CAA /* scatter-and-gather.app */,
+				CC3D277D2556492B00E38CAA /* scatter-and-gatherTests.xctest */,
+				CC3D27882556492B00E38CAA /* scatter-and-gatherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC3D27692556492A00E38CAA /* scatter-and-gather */ = {
+			isa = PBXGroup;
+			children = (
+				CC3D27A32556F6C100E38CAA /* New Group */,
+				CC3D279D2556F56600E38CAA /* app */,
+				CC3D279E2556F57700E38CAA /* viewControllers */,
+				CC3D279F2556F58F00E38CAA /* storyboards */,
+				CC3D27732556492B00E38CAA /* Assets.xcassets */,
+				CC3D27782556492B00E38CAA /* Info.plist */,
+			);
+			path = "scatter-and-gather";
+			sourceTree = "<group>";
+		};
+		CC3D27802556492B00E38CAA /* scatter-and-gatherTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC3D27812556492B00E38CAA /* scatter_and_gatherTests.swift */,
+				CC3D27832556492B00E38CAA /* Info.plist */,
+			);
+			path = "scatter-and-gatherTests";
+			sourceTree = "<group>";
+		};
+		CC3D278B2556492B00E38CAA /* scatter-and-gatherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC3D278C2556492B00E38CAA /* scatter_and_gatherUITests.swift */,
+				CC3D278E2556492B00E38CAA /* Info.plist */,
+			);
+			path = "scatter-and-gatherUITests";
+			sourceTree = "<group>";
+		};
+		CC3D279D2556F56600E38CAA /* app */ = {
+			isa = PBXGroup;
+			children = (
+				CC3D276A2556492A00E38CAA /* AppDelegate.swift */,
+				CC3D276C2556492A00E38CAA /* SceneDelegate.swift */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		CC3D279E2556F57700E38CAA /* viewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CC3D276E2556492A00E38CAA /* ViewController.swift */,
+			);
+			path = viewControllers;
+			sourceTree = "<group>";
+		};
+		CC3D279F2556F58F00E38CAA /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CC3D27702556492A00E38CAA /* Main.storyboard */,
+			);
+			path = storyboards;
+			sourceTree = "<group>";
+		};
+		CC3D27A32556F6C100E38CAA /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC3D27662556492A00E38CAA /* scatter-and-gather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC3D27912556492B00E38CAA /* Build configuration list for PBXNativeTarget "scatter-and-gather" */;
+			buildPhases = (
+				CC3D27632556492A00E38CAA /* Sources */,
+				CC3D27642556492A00E38CAA /* Frameworks */,
+				CC3D27652556492A00E38CAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "scatter-and-gather";
+			productName = "scatter-and-gather";
+			productReference = CC3D27672556492A00E38CAA /* scatter-and-gather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC3D277C2556492B00E38CAA /* scatter-and-gatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC3D27942556492B00E38CAA /* Build configuration list for PBXNativeTarget "scatter-and-gatherTests" */;
+			buildPhases = (
+				CC3D27792556492B00E38CAA /* Sources */,
+				CC3D277A2556492B00E38CAA /* Frameworks */,
+				CC3D277B2556492B00E38CAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC3D277F2556492B00E38CAA /* PBXTargetDependency */,
+			);
+			name = "scatter-and-gatherTests";
+			productName = "scatter-and-gatherTests";
+			productReference = CC3D277D2556492B00E38CAA /* scatter-and-gatherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC3D27872556492B00E38CAA /* scatter-and-gatherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC3D27972556492B00E38CAA /* Build configuration list for PBXNativeTarget "scatter-and-gatherUITests" */;
+			buildPhases = (
+				CC3D27842556492B00E38CAA /* Sources */,
+				CC3D27852556492B00E38CAA /* Frameworks */,
+				CC3D27862556492B00E38CAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC3D278A2556492B00E38CAA /* PBXTargetDependency */,
+			);
+			name = "scatter-and-gatherUITests";
+			productName = "scatter-and-gatherUITests";
+			productReference = CC3D27882556492B00E38CAA /* scatter-and-gatherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC3D275F2556492A00E38CAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					CC3D27662556492A00E38CAA = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					CC3D277C2556492B00E38CAA = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = CC3D27662556492A00E38CAA;
+					};
+					CC3D27872556492B00E38CAA = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = CC3D27662556492A00E38CAA;
+					};
+				};
+			};
+			buildConfigurationList = CC3D27622556492A00E38CAA /* Build configuration list for PBXProject "scatter-and-gather" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC3D275E2556492A00E38CAA;
+			productRefGroup = CC3D27682556492A00E38CAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC3D27662556492A00E38CAA /* scatter-and-gather */,
+				CC3D277C2556492B00E38CAA /* scatter-and-gatherTests */,
+				CC3D27872556492B00E38CAA /* scatter-and-gatherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC3D27652556492A00E38CAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3D27742556492B00E38CAA /* Assets.xcassets in Resources */,
+				CC3D27722556492B00E38CAA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3D277B2556492B00E38CAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3D27862556492B00E38CAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC3D27632556492A00E38CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3D276F2556492A00E38CAA /* ViewController.swift in Sources */,
+				CC3D276B2556492A00E38CAA /* AppDelegate.swift in Sources */,
+				CC3D276D2556492A00E38CAA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3D27792556492B00E38CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3D27822556492B00E38CAA /* scatter_and_gatherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC3D27842556492B00E38CAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC3D278D2556492B00E38CAA /* scatter_and_gatherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC3D277F2556492B00E38CAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC3D27662556492A00E38CAA /* scatter-and-gather */;
+			targetProxy = CC3D277E2556492B00E38CAA /* PBXContainerItemProxy */;
+		};
+		CC3D278A2556492B00E38CAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC3D27662556492A00E38CAA /* scatter-and-gather */;
+			targetProxy = CC3D27892556492B00E38CAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC3D27702556492A00E38CAA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC3D27712556492A00E38CAA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC3D278F2556492B00E38CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC3D27902556492B00E38CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC3D27922556492B00E38CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "scatter-and-gather/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffkang.scatter-and-gather";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC3D27932556492B00E38CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "scatter-and-gather/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffkang.scatter-and-gather";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC3D27952556492B00E38CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "scatter-and-gatherTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffkang.scatter-and-gatherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/scatter-and-gather.app/scatter-and-gather";
+			};
+			name = Debug;
+		};
+		CC3D27962556492B00E38CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "scatter-and-gatherTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffkang.scatter-and-gatherTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/scatter-and-gather.app/scatter-and-gather";
+			};
+			name = Release;
+		};
+		CC3D27982556492B00E38CAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "scatter-and-gatherUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffkang.scatter-and-gatherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "scatter-and-gather";
+			};
+			name = Debug;
+		};
+		CC3D27992556492B00E38CAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "scatter-and-gatherUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jeffkang.scatter-and-gatherUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "scatter-and-gather";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC3D27622556492A00E38CAA /* Build configuration list for PBXProject "scatter-and-gather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3D278F2556492B00E38CAA /* Debug */,
+				CC3D27902556492B00E38CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC3D27912556492B00E38CAA /* Build configuration list for PBXNativeTarget "scatter-and-gather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3D27922556492B00E38CAA /* Debug */,
+				CC3D27932556492B00E38CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC3D27942556492B00E38CAA /* Build configuration list for PBXNativeTarget "scatter-and-gatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3D27952556492B00E38CAA /* Debug */,
+				CC3D27962556492B00E38CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC3D27972556492B00E38CAA /* Build configuration list for PBXNativeTarget "scatter-and-gatherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC3D27982556492B00E38CAA /* Debug */,
+				CC3D27992556492B00E38CAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC3D275F2556492A00E38CAA /* Project object */;
+}
